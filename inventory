@@ -1,0 +1,16 @@
+ip-172-31-23-250 ansible_host=16.171.115.6 ansible_user=erjon ansible_ssh_private_key_file=mastora.key
+ip-172-31-23-238 ansible_host=51.20.124.25 ansible_user=erjon ansible_ssh_private_key_file=mastora.key
+ip-172-31-23-59 ansible_host=51.20.187.127 ansible_user=erjon ansible_ssh_private_key_file=mastora.key
+
+[all]
+ip-172-31-23-250
+ip-172-31-23-238
+ip-172-31-23-59
+
+[master]
+ip-172-31-23-250
+
+[workers]
+ip-172-31-23-238
+ip-172-31-23-59
+~
